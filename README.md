@@ -21,7 +21,7 @@ My plan is to use the *wikipedia categories* section as **queries**, and the wik
 }
 ```
 
-So the entries to be retrieved for the query "20th-century american engineers" is all the above listed entities. We can use **nordlys API** to retrieve the entities abstracts like this: http://api.nordlys.cc/ec/lookup_id/<dbpedia:Albert_Einstein>. 
+So the entries to be retrieved for the query "20th-century american engineers" is all the above listed entities. We can use **nordlys API** to retrieve the entities abstracts like this: `http://api.nordlys.cc/ec/lookup_id/<dbpedia:Albert_Einstein>`. 
 
 
 For the model I plan to use the deep networks introduced in [this paper](https://arxiv.org/abs/1704.08803). 
